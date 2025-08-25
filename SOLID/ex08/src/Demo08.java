@@ -12,5 +12,5 @@ public class Demo08 {
         ElectricScooter scooter = new ElectricScooter();
         scooter.recharge(5);
         scooter.startEngine();
-    }
+    
 }

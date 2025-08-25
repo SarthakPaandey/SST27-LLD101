@@ -1,4 +1,4 @@
-public class Square extends Rectangle {
+public class Square {
     @Override
     public void setWidth(int w){ this.w = this.h = w; }
     @Override
