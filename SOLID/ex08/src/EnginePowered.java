@@ -1,0 +1,5 @@
+interface EnginePowered {
+    void startEngine();
+}
+
+
