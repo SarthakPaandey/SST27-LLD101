@@ -17,5 +17,3 @@ Build/Run (Starter)
   cd singleton-config/src
   javac com/example/config/*.java
   java com.example.config.App
-
-
