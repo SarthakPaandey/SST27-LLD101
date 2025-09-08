@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.file.*; 
 import java.util.*;
 
+// minimal csv reader that splits by comma and returns raw cells
 public class NaiveCsvReader {
     public List<String[]> read(Path p) {
         try {

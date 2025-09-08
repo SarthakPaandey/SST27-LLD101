@@ -2,6 +2,7 @@ package com.example.imports;
 
 import java.util.Objects;
 
+// domain service that enforces invariants for profile creation
 public class ProfileService {
     public void createProfile(String id, String email, String displayName) {
         Objects.requireNonNull(id, "id");

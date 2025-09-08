@@ -1,7 +1,9 @@
 package com.example.render;
 
 public class Glyph {
+    // extrinsic state: the character
     private final char ch;
+    // intrinsic state: shared style
     private final TextStyle style;
 
     public Glyph(char ch, TextStyle style) {

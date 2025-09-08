@@ -1,6 +1,7 @@
 package com.example.report;
 import java.io.*; import java.nio.file.*; import java.util.Map;
 
+// subsystem that writes a tiny json file
 public class JsonWriter {
     public Path write(Map<String,Object> data, Path outDir, String fileName) {
         try {

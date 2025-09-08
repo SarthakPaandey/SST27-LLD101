@@ -3,6 +3,7 @@ package com.example.render;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+// factory that caches and returns shared textstyle instances
 public class TextStyleFactory {
     private static final Map<String, TextStyle> cache = new ConcurrentHashMap<>();
 

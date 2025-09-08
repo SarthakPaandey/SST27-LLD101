@@ -2,6 +2,7 @@ package com.example.render;
 
 import java.util.Objects;
 
+// immutable intrinsic style shared by many glyphs
 public final class TextStyle {
     public final String font;
     public final int size;
