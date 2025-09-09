@@ -1,9 +1,5 @@
 package com.example.notifications;
 
-/**
- * Existing notifier — sends notifications via Email.
- * You should not modify this class.
- */
 public class EmailNotifier implements Notifier {
     private final String email;
 
